@@ -1,0 +1,70 @@
+.advantages {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.advantages__title {
+    display: block;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #506983;
+    margin: 0 auto 67px auto;
+}
+
+.advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 100%;
+    max-width: 739px;
+    height: auto;
+}
+
+.advantage__item {
+    display: flex;
+    width: calc((100%-72px) / 2);
+    /*   margin-right: 72px;
+    &:nth-child(even) {
+        margin-right: 0;
+    } */
+    margin-bottom: 75px;
+    &:nth-last-child(-n + 2) {
+        margin-bottom: 0;
+    }
+}
+
+.advantage__img {
+    display: inline-block;
+    margin: 0;
+    width: 80px;
+}
+
+.advantage__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #616e7b;
+    text-align: left;
+    padding: 8px 0 8px 25px;
+}
+
+.advantages__cheese {
+    position: absolute;
+    right: -34px;
+    top: -110px;
+}
+
+.advantages__butter {
+    position: absolute;
+    left: -16px;
+    top: 103px;
+}

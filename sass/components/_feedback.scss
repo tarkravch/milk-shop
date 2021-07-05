@@ -1,0 +1,107 @@
+.feedback {
+    position: relative;
+    text-align: center;
+}
+
+.feedback__title {
+    display: inline-block;
+    margin: 0 auto 30px auto;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #7ab6f3;
+}
+
+.feedback__subtitle {
+    padding-left: 10px;
+    color: #616e7b;
+}
+
+.feedback__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    .feedback__data {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        .feedback__input {
+            display: block;
+            width: 580px;
+            height: 57px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 18px;
+            color: #bac5cf;
+            background: #ffffff;
+            border: 0.5px solid #93c1ef;
+            border-radius: 2px;
+            text-indent: 20px;
+            padding: 20px auto 19px 20px;
+            &:first-child {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .feedback__comment {
+        display: inline-block;
+        width: 580px;
+        height: 134px;
+        background: #ffffff;
+        border: 0.5px solid #93c1ef;
+        border-radius: 2px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: normal;
+        color: #bac5cf;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
+
+.feedback__btn {
+    display: block;
+    position: relative;
+    width: 277px;
+    height: 78px;
+    margin: 0 auto 123px auto;
+    background: linear-gradient(180deg, #8ac5ff 0%, #69b4fe 100%);
+    border: 0.5px solid #448dd7;
+    box-shadow: 0px 2px 4px rgba(62, 125, 189, 0.85);
+    border-radius: 59px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fafafa;
+    padding: 18px 92px 21px 56px;
+    .hero__arrow {
+        position: absolute;
+        fill: #fff;
+        right: 48px;
+        top: 31px;
+    }
+    &:hover {
+        background: #fff;
+        color: #69b4fe;
+    }
+    &:hover .hero__arrow {
+        fill: #69b4fe;
+    }
+}
+
+.feedback__shake {
+    position: absolute;
+    top: -178%;
+    right: 0%;
+}

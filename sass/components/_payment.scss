@@ -1,0 +1,61 @@
+.payment__block {
+    display: flex;
+    align-items: center;
+    max-width: 933px;
+    height: 268px;
+    margin: 0 auto 130px auto;
+    .payment__title {
+        display: inline-block;
+        margin-right: 27px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        color: #506983;
+    }
+    .payment__arrows {
+        position: relative;
+        display: block;
+        width: 110px;
+        height: 100%;
+        margin-right: 27px;
+        .payment__arrow {
+            position: absolute;
+            display: inline-block;
+            &:nth-child(1) {
+                top: 41px;
+            }
+            &:nth-child(2) {
+                bottom: 32px;
+            }
+        }
+    }
+    .payment__options {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .payment__item {
+            display: flex;
+            align-items: center;
+            width: 492px;
+            height: 73px;
+            &:nth-child(1) {
+                margin-bottom: 123px;
+            }
+            .payment__icon {
+                display: inline-block;
+                margin-right: 25px;
+            }
+            .payment__text {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 22px;
+                line-height: 26px;
+                color: #616e7b;
+            }
+        }
+    }
+}

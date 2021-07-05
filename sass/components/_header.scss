@@ -1,0 +1,173 @@
+.main-image {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-image: url("../img/main-image.png");
+    background-repeat: no-repeat;
+    background-size: 107%;
+    background-position: 45% 4%;
+    animation: animatedMainImage 8s linear infinite alternate;
+}
+
+@keyframes animatedMainImage {
+    from {
+        background-position: 99% 4%;
+    }
+    to {
+        background-position: 45% 4%;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 104px auto;
+    padding-top: 30px;
+    max-width: 90%;
+    height: auto;
+    background: transparent;
+    .header__menu {
+        margin-right: 4.74%;
+    }
+    .header__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 509px;
+        padding: 0;
+        li {
+            display: inline-block;
+            margin-right: 51px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .header__item {
+        display: inline-block;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #616e7b;
+    }
+    .header__item--current {
+        font-weight: bold;
+    }
+    .header__cart {
+        display: inline-block;
+        margin-right: 3.7%;
+        cursor: pointer;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 66px;
+    margin-right: 16.67%;
+    cursor: pointer;
+    .logo__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #5fddbf;
+        border-radius: 2px;
+        height: 66px;
+        .logo__image {
+            display: block;
+            margin: 0;
+            padding: 13px 19px 14px 19px;
+            height: 100%;
+            width: 79px;
+        }
+    }
+    .logo__inscription {
+        display: flex;
+        align-items: center;
+        background: #fafafa;
+        box-shadow: 0px 4px 4px rgba(122, 182, 243, 0.63);
+        border-radius: 2px;
+        height: 66px;
+        .logo__text {
+            font-family: "Lato";
+            font-style: italic;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 30px;
+            letter-spacing: 0.165em;
+            color: #7ab6f3;
+        }
+    }
+}
+
+.call {
+    width: 127px;
+    height: 127px;
+    background: radial-gradient( 50% 50% at 50% 50%, #5fddbf 0%, #45dab6 44.27%, #2dd1aa 100%);
+    box-shadow: 0px 4px 4px rgba(97, 110, 123, 0.21);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        animation: callShake 0.5s;
+        animation-iteration-count: infinite;
+    }
+    .call__icon {
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 7px;
+        /* transform: matrix(-0.94, 0.27, 0.36, 0.96, 0, 0); */
+    }
+    .call__text {
+        display: inline-block;
+        margin: 0;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+
+@keyframes callShake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}

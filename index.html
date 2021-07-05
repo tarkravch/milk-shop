@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:ital,wght@0,300;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/modern-normalize.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" type="text/plain" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+
+    <div class="main-image">
+        <header class="header">
+            <div class="logo">
+                <div class="logo__icon">
+                    <img class="logo__image" src="./img/cow-icon.svg" alt="cow icon" width="40" height="40">
+                </div>
+                <div class="logo__inscription">
+                    <p class="logo__text">МОЛОЧНА ФЕРМА</p>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li><a class="header__item header__item--current" href="">Головна</a></li>
+                    <li><a class="header__item" href="">Продукція</a></li>
+                    <li><a class="header__item" href="">Замовлення</a></li>
+                    <li><a class="header__item" href="">Контакти</a></li>
+                </ul>
+            </nav>
+            <img src="./img/shopping-cart.svg" alt="Shopping-cart" class="header__cart">
+            <div class="call">
+                <img src="./img/call-answer.svg" alt="receiver" class="call__icon" width="31" height="25">
+                <p class="call__text">Швидкий виклик</p>
+            </div>
+
+        </header>
+        <section class="hero">
+            <h1 class="hero__title">якісна молочна продукція від виробника</h1>
+            <a href="" class="hero__btn">
+                <p class="hero__link">До каталогу</p>
+                <!-- <img src="./img/Arrow-1.svg" alt="arrow to catalog" class="hero__arrow"> -->
+                <svg class="hero__arrow" width="26" height="18" alt="arrow to catalog">
+                    <use href="./img/symbol-defs.svg#icon-Arrow-1"></use>
+                </svg>
+            </a>
+        </section>
+        <!-- <img class="main-picture" src="./img/main-image.png" alt="Main image"> -->
+    </div>
+    <main>
+        <section class="products">
+            <div class="products__card">
+                <div class="products__content">
+                    <h3 class="products__title">Кисломолочка</h3>
+                </div>
+                <a href="" class="products__btn">Купити</a>
+            </div>
+            <div class="products__card">
+                <div class="products__content">
+                    <h3 class="products__title">Масло</h3>
+                </div>
+                <a href="" class="products__btn">Купити</a>
+            </div>
+            <div class="products__card">
+                <div class="products__content">
+                    <h3 class="products__title">Молоко</h3>
+                </div>
+                <a href="" class="products__btn">Купити</a>
+            </div>
+            <div class="products__card">
+                <div class="products__content">
+                    <h3 class="products__title">Сир</h3>
+                </div>
+                <a href="" class="products__btn">Купити</a>
+            </div>
+        </section>
+        <section class="about">
+            <h2 class="about__title">Що варто знати про нас?</h2>
+            <img src="./img/cows.png" alt="cows" class="about__img">
+            <div class="about__block">
+                <!-- СЛАЙДЕР МОЛОЧНА ферма - це... -->
+                <div class="about-slider swiper-container">
+                    <div class="about-slider__wrapper swiper-wrapper">
+                        <div class="about-slider__slide swiper-slide">
+                            <article class="about__card">
+                                <p class="about__paragraph">
+                                    <span class="about__subtitle">МОЛОЧНА ФЕРМА</span> - це фірма, що спеціалізується на
+                                    продажу екологічно чистих та повністю натуральних молочних продуктів. <br>
+                                </p>
+                                <p class="about__paragraph">Ми співпрацюємо лише з перевіреними фермерами, що виключає
+                                    можливість підробок та неякісних продуктів. <br></p>
+                                <p class="about__paragraph">Наша фірма має всі необхідні ліцензії та дозволи для продажу
+                                    товарів усім віковим категоріям. Захистіть своє здоров’я з нами!
+                                </p>
+                            </article>
+                        </div>
+                        <div class="about-slider__slide swiper-slide">
+                            <article class="about__card">
+                                <p class="about__paragraph">
+                                    <span class="about__subtitle">МОЛОЧНА ФЕРМА</span> - це фірма, що спеціалізується на
+                                    продажу екологічно чистих та повністю натуральних молочних продуктів. <br>
+                                </p>
+                                <p class="about__paragraph">Ми співпрацюємо лише з перевіреними фермерами, що виключає
+                                    можливість підробок та неякісних продуктів. <br></p>
+                                <p class="about__paragraph">Наша фірма має всі необхідні ліцензії та дозволи для продажу
+                                    товарів усім віковим категоріям. Захистіть своє здоров’я з нами!
+                                </p>
+                            </article>
+                        </div>
+                        <div class="about-slider__slide swiper-slide">
+                            <article class="about__card">
+                                <p class="about__paragraph">
+                                    <span class="about__subtitle">МОЛОЧНА ФЕРМА</span> - це фірма, що спеціалізується на
+                                    продажу екологічно чистих та повністю натуральних молочних продуктів. <br>
+                                </p>
+                                <p class="about__paragraph">Ми співпрацюємо лише з перевіреними фермерами, що виключає
+                                    можливість підробок та неякісних продуктів. <br></p>
+                                <p class="about__paragraph">Наша фірма має всі необхідні ліцензії та дозволи для продажу
+                                    товарів усім віковим категоріям. Захистіть своє здоров’я з нами!
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination--about"></div>
+                </div>
+
+            </div>
+            <img src="./img/about-sour-cream.png" alt="plate with sour cream" class="about__picture"
+                data-aos="fade-down-right" data-aos-duration="2000">
+        </section>
+        <section class="advantages">
+            <img src="./img/golden-butter.png" alt="butter" class="advantages__butter" data-aos="fade-right"
+                data-aos-duration="3000">
+            <div class="main-container">
+                <h2 class="advantages__title">Чому нас обирають мільйони?</h2>
+                <ul class="advantages__list">
+                    <li class="advantage__item">
+                        <img src="./img/advantage-milk-package.svg" alt="" class="advantage__img">
+                        <p class="advantage__text">
+                            Великий вибір продукції найвищої якості
+                        </p>
+                    </li>
+                    <li class="advantage__item">
+                        <img src="./img/advantage-cow.svg" alt="" class="advantage__img">
+                        <p class="advantage__text">
+                            Наші корівки здорові та вирощені в любові
+                        </p>
+                    </li>
+                    <li class="advantage__item">
+                        <img src="./img/advantage-bottle.svg" alt="" class="advantage__img">
+                        <p class="advantage__text">
+                            Абсолютно безпечно для дітей та вагітних
+                        </p>
+                    </li>
+                    <li class="advantage__item">
+                        <img src="./img/advantage-hand-plant.svg" alt="" class="advantage__img">
+                        <p class="advantage__text">
+                            Максимально екологічне виробництво
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <img src="./img/advantages-cheese.png" alt="cheese" class="advantages__cheese" data-aos="fade-left"
+                data-aos-duration="1500">
+
+        </section>
+        <section class="order">
+            <div class="main-container">
+                <h2 class="order__title">Як зробити замовлення?</h2>
+                <ul class="order__list">
+                    <li class="order__item">
+                        <div class="order__card">
+                            <div class="order__square">
+                                <p class="order__number">1</p>
+                            </div>
+                            <img src="./img/order-phone.png" alt="smartphone" class="order__img">
+                        </div>
+                        <p class="order__text">
+                            Ви замовляєте продукцію на нашому сайті всього в декілька кліків
+                        </p>
+                    </li>
+                    <li class="order__item">
+                        <div class="order__card">
+                            <div class="order__square">
+                                <p class="order__number">2</p>
+                            </div>
+                            <img src="./img/order-truck.png" alt="truck" class="order__img">
+                        </div>
+                        <p class="order__text">
+                            Ми доставляємо Ваше замовлення прямо до Вас додому
+                        </p>
+                    </li>
+                    <li class="order__item">
+                        <div class="order__card">
+                            <div class="order__square">
+                                <p class="order__number">3</p>
+                            </div>
+                            <img src="./img/order-milk.png" alt="milk bottle" class="order__img">
+                        </div>
+                        <p class="order__text">
+                            Ви насолоджуєтесь смачною та якісною продукцією
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="payment">
+            <div class="main-container">
+                <div class="payment__block">
+                    <h3 class="payment__title">Способи оплати</h3>
+                    <div class="payment__arrows">
+                        <img class="payment__arrow" src="./img/payment-arrow-up.svg" alt="arrow to the right up">
+                        <img class="payment__arrow" src="./img/payment-arrow-down.svg" alt="arrow to the right down">
+                    </div>
+                    <div class="payment__options">
+                        <div class="payment__item">
+                            <img src="./img/payment-cash.svg" alt="cash" class="payment__icon">
+                            <p class="payment__text">Готівкою при отриманні замовлення</p>
+                        </div>
+                        <div class="payment__item">
+                            <img src="./img/payment-cards.svg" alt="card" class="payment__icon">
+                            <p class="payment__text">Банківською картою при оформленні</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="main-container">
+                <p class="feedback__title">Виникли запитання?<span class="feedback__subtitle">Отримайте швидку
+                        відповідь, заповнивши форму</span></p>
+                <form action="#" class="feedback__form">
+                    <div class="feedback__data">
+                        <input type="text" class="feedback__input" placeholder="Прізвище та ім'я">
+                        <input type="text" class="feedback__input"
+                            placeholder="Адреса електронної пошти або номер телефону">
+                    </div>
+                    <textarea class="feedback__comment" name="" id="" cols="30" rows="10"
+                        placeholder="Текст Вашого повідомлення"></textarea>
+                </form>
+                <button class="feedback__btn" type="submit">Надіслати
+                    <svg class="hero__arrow" width="26" height="18" alt="arrow to catalog">
+                        <use href="./img/symbol-defs.svg#icon-Arrow-1"></use>
+                    </svg>
+                </button>
+            </div>
+            <img class="feedback__shake" src="./img/shake.png" alt="Glass of shake" data-aos="fade-left"
+                data-aos-duration="2000">
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-up">
+            <img src="./img/footer-milk-glass.png" alt="glass of milk" class="footer-up__image" data-aos="fade-right"
+                data-aos-duration="3000">
+            <div class="footer-up__left">
+                <div class="footer-up__container">
+                    <div class="footer-up__contacts">
+                        <h4 class="footer-up__title">Контакти:</h4>
+                        <address class="address">
+                            <ul class="address__list">
+                                <li>
+                                    <p class="address__item">Вул. Хрещатик 22,</p>
+                                </li>
+                                <li>
+                                    <p class="address__item">м. Іванофранківськ</p>
+                                </li>
+                                <li><a href="tel:+380976554333" class="address__link">тел. +38(097) 655 4333</a></li>
+                                <li><a href="mailto:molochka@gmail.com" class="address__link">molochka@gmail.com</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="footer-up__social">
+                        <h4 class="footer-up__title">Соцмережі:</h4>
+                        <div class="footer-up__icons">
+                            <div class="footer-up__icons--subblock">
+                                <a class="footer-up__icon" href=""><img src="./img/telegram-icon.svg"
+                                        alt="Telegram"></a>
+                                <a class="footer-up__icon" href=""><img src="./img/twitter-sign.svg" alt="twitter"></a>
+                            </div>
+                            <div class="footer-up__icons--subblock">
+                                <a class="footer-up__icon" href=""><img src="./img/facebook-icon.svg"
+                                        alt="facebook"></a>
+                                <a class="footer-up__icon" href=""><img src="./img/instagram-icon.svg"
+                                        alt="instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-up__right">
+                <!-- <img class="footer-up__img" src="./img/footer-right-img.png" alt="Milk in glass footer image" width="960" height="480"> -->
+                <div class="call call--footer">
+                    <img src="./img/call-answer.svg" alt="receiver" class="call__icon" width="31" height="25">
+                    <p class="call__text">Швидкий виклик</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-down">
+            <div class="main-container">
+                <div class="footer-down__block">
+                    <div class="footer-down__logo">
+                        <img class="footer-down__img" src="./img/cow-icon.svg" alt="Cow icon">
+                        <p class="footer-down__text">МОЛОЧНА ФЕРМА</p>
+                    </div>
+                    <nav class="footer-down__menu">
+                        <ul class="footer-down__list">
+                            <li class="footer-down__item"><a href="">Головна</a></li>
+                            <li class="footer-down__item"><a href="">Продукція</a></li>
+                            <li class="footer-down__item"><a href="">Замовлення</a></li>
+                            <li class="footer-down__item"><a href="">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <script src="./js/animation-on-scroll.js" type="module"></script> -->
+    <!-- <script src="./js/aos.js" type="module"></script> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="module"></script>
+    <script src="./js/about-slider.js" type="module"></script>
+
+</body>
+
+</html>
